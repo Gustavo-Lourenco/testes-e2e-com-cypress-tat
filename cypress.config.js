@@ -2,9 +2,7 @@ const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
-    //setupNodeEvents(on, config) {
-    // implement node event listeners here
-    //},
+    projectId: 'tmuxkg',
     baseUrl: 'https://notes-serverless-app.com',
     defaultCommandTimeout: 10000,
     requestTimeout: 10000,
